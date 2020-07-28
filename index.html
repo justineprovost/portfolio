@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>justine provost visual design</title>
+    <link rel="stylesheet" type="text/css" href="css/all.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js" integrity="sha256-z0T3r+4uTjAkB5CHxybF9RQwAzHEdFB5+hJe/pGAcPg=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css"> 
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css'>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js" integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
+<link rel="shortcut icon" type="image/jpg" href="images/asteriks.svg"/>
+</head>
+    
+<body data-barba = "wrapper">
+         <div class="loading-container">
+      <div class="loading-screen">
+      </div>
+    </div>
+   <header>
+       <a class="logo"><img src="images/test_logo.png"></a>
+       <div class="main_menu" >
+            <ul class="transition">
+               <a href="saf.html"><li>Work</li></a>
+               <a href="about.html"><li>About</li></a>
+               <a ><li>|</li></a>
+               <a href="index.html" ><li>FR</li></a>
+           </ul>
+       </div>
+   </header>
+      <span id="trigger" onclick="openNav()"><i class="fas fa-ellipsis-h"></i></span>
+   <nav id="myNav" class="overlay" role="navigation">
+         <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-asterisk"></i></span>
+           <ul class="overlay-content">
+               <a href="saf.html"><li>Work</li></a>
+               <a href="about.html"><li>About</li></a>
+               <a ><li>|</li></a>
+               <a href="index.html"><li>FR</li></a>
+           </ul>
+       </nav>
+   
+   <aside>
+       <ul>
+           <li><a href="http://www.behance.net/justineprovost" target="_blank"><i class="fab fa-behance"></i></a></li>
+           <li><a href="https://www.linkedin.com/in/justineprovost/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+           <li><a href="https://dribbble.com/ju_pro" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+       </ul>
+   </aside>
+   
+<div data-barba="container" data-barba-namespace="home">
+  <div id="homepage">
+   <main data-aos="fade-up">
+       <h1>Hi! I'm Justine, a visual designer passionate about sustainability and creating thoughtful designs</h1>
+   </main>
+    
+    <div id="box-1" class="boxes box-1">
+    <div class="line"></div>
+</div>
+     
+   
+   <div data-barba="container" data-barba-namespace="work" id="main_pres">
+   <div id="pres" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><h2 id="here">here are my latest projects:</h2></div>
+   <div class="projects" id="work">
+       <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="saf.html">Sustainability Action Fund</a></h2>
+       <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="bistro_tottard.html">Bistro Tôt ou Tard</a></h2>
+       <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="carekit.html">Carekit</a></h2>
+       <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="wild_thoughts.html">Wild Thoughts</a></h2>
+      
+      
+   </div>
+    </div>
+   
+   <footer><h5><i class="far fa-paper-plane"></i> → justine.provost@hotmail.ca</h5>
+   <h5>this website is proudly set in fonts by <a href="https://pangrampangram.com/" target="_blank">Pangram Pangram Foundry</a></h5>
+   </footer>
+   </div>
+</div>
+<script>     
+
+const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+cursor.classList.add("expand");
+
+setTimeout(() => {
+cursor.classList.remove("expand");
+
+}, 500)
+})
+</script>   
+  
+   
+   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    
+	<script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    
+    <script>
+	var controller = new ScrollMagic.Controller();
+
+// build scenes
+new ScrollMagic.Scene({triggerElement: ".box-1"}).setClassToggle(".box-1 .line", "active").addTo(controller);
+
+</script>
+    
+      <!-- Barba Core -->
+  <script src="https://unpkg.com/@barba/core"></script>
+
+  <!-- GSAP for animation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+  
+    <!-- Some basic helper functions -->
+  <script src="js/helper.js"></script>
+
+  <!-- Main JS file -->
+  <script src="js/main.js"></script>
+   
+    <script src='https://unpkg.com/splitting@1.0.6/dist/splitting.min.js'></script>
+    <script  src="js/script.js"></script>  
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+	<script  src="js/index.js"></script>
+</body>
+</html>

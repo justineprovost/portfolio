@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>justine provost - About</title>
+      <link rel="stylesheet" type="text/css" href="../css/all.css" >
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js" integrity="sha256-z0T3r+4uTjAkB5CHxybF9RQwAzHEdFB5+hJe/pGAcPg=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../fonts/stylesheet.css"> 
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="shortcut icon" type="image/jpg" href="../images/asteriks.svg"/>
+
+</head>
+<body data-barba="wrapper">
+<div class="loading-container">
+<div class="loading-screen">
+</div>
+</div>
+      <header>
+       <a class="logo" href="index.html"><h5>justine provost</h5></a>
+       <div class="main_menu" >
+            <ul>
+               <a href="saf.html"><li>Work</li></a>
+               <a href="#"><li>About*</li></a>
+               <a ><li>|</li></a>
+               <a href="index.html"><li>FR</li></a>
+           </ul>
+       </div>
+   </header>
+   <nav id="myNav" class="overlay" role="navigation">
+         <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-asterisk"></i></span>
+           <ul class="overlay-content">
+               <a href="saf.html"><li>Work</li></a>
+               <a href="index.html"><li>About*</li></a>
+               <a ><li>|</li></a>
+               <a href="index.html"><li>FR</li></a>
+           </ul>
+       </nav>
+   
+   <aside>
+       <ul>
+           <li><a href="http://www.behance.net/justineprovost" target="_blank"><i class="fab fa-behance"></i></a></li>
+           <li><i class="fab fa-linkedin-in"></i></li>
+           <li><i class="fab fa-dribbble"></i></li>
+       </ul>
+   </aside>
+   
+   <div class="about_page" data-barba="container" data-barba-namespace="about">
+   <section id="about">
+       <div id="about_me">
+                <article >
+                 <h4>A bit about me*</h4>
+                 <p>I’m Justine, a visual designer based in Tiohtiá:ke/Montréal, Canada. After completing a B.Sc. in Environment at McGill University, I worked for various non-profits in the sustainability field during which time my interest for design germinated from seed to sprout. I just recently graduated with a BFA in Design from Concordia University.</p>
+                 <p>As a designer, I strongly believe in shaping the world we collectively want to inhabit, using my creative eye to bring attention to ideas that initiate, grow and sustain a sense of care for all. In my off time, you can find me on my bike, helping out at the local community garden, or at home dancing and singing along to the Backstreet Boys. </p>
+                 <p>Take a look at my <b><a href="../images/cv_provost_en.pdf" target="_blank">CV</a></b>.</p>
+             </article>
+       </div>
+       </section>
+             <footer><h5><i class="far fa-paper-plane"></i> → justine.provost@hotmail.ca</h5>
+   <h5>this website is proudly set in fonts by <a href="https://pangrampangram.com/" target="_blank">Pangram Pangram Foundry</a></h5></footer>
+    </div>
+       
+       
+   
+   <script>     
+
+const cursor = document.querySelector('.cursor');
+
+    document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+    })
+
+    document.addEventListener('click', () => {
+        cursor.classList.add("expand");
+
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+
+        }, 500)
+    })
+</script>   
+     
+    <span id="trigger" onclick="openNav()"><i class="fas fa-ellipsis-h"></i></span>
+    
+    <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+    <script defer src="js/script_swup.js"></script>
+
+
+	<script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    
+      <!-- Barba Core -->
+  <script src="https://unpkg.com/@barba/core"></script>
+
+  <!-- GSAP for animation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+
+  <!-- Some basic helper functions -->
+  <script src="../js/helper.js"></script>
+
+  <!-- Main JS file -->
+  <script src="../js/main.js"></script>
+    
+       <script src="../js/lottie.js"></script>
+       <script src="../js/saf_icons.js"></script> 
+    
+</body>
+</html>

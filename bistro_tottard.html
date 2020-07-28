@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>justine provost - Bistro Tot ou Tard</title>
+      <link rel="stylesheet" type="text/css" href="../css/all.css" >
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js" integrity="sha256-z0T3r+4uTjAkB5CHxybF9RQwAzHEdFB5+hJe/pGAcPg=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../fonts/stylesheet.css"> 
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css'>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="shortcut icon" type="image/jpg" href="../images/asteriks.svg"/>
+</head>
+<body data-barba = "wrapper">
+      <header>
+       <a class="logo" href="../index.html"><h5>justine provost*</h5></a>
+       <div class="main_menu" >
+            <ul>
+               <a href="../index.html#work"><li>Work</li></a>
+               <a href="about.html"><li>About</li></a>
+               <a ><li>|</li></a>
+               <a ><li>FR</li></a>
+           </ul>
+       </div>
+   </header>
+   <nav id="myNav" class="overlay" role="navigation">
+         <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-asterisk"></i></span>
+           <ul class="overlay-content">
+               <a href="../index.html#work"><li>Work</li></a>
+               <a href="about.html"><li>About</li></a>
+               <a ><li>|</li></a>
+               <a ><li>FR</li></a>
+           </ul>
+       </nav>
+   
+   <aside>
+       <ul>
+           <li><a href="http://www.behance.net/justineprovost" target="_blank"><i class="fab fa-behance"></i></a></li>
+           <li><a href="https://www.linkedin.com/in/justineprovost/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+           <li><a href="https://dribbble.com/ju_pro" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+       </ul>
+   </aside>
+<div data-barba="container" data-barba-namespace="bistro">
+   <div class="proj_page">
+   
+   <section class="topimg">
+       <figure><img src="images/bistro/bistro_business_mockup.png"></figure>
+       </section>
+   
+   <section class="proj_intro">
+       <div class="proj_desc">
+              <h2 class="proj_title">Bisto Tôt ou Tard</h2>
+               <p class="summary">Branding proposal for a cozy bistro in th heart of the Plateau Mont-Royal.</p>
+               <h4 class="year_title">YEARS</h4>
+               <p class="year">2020</p>
+               <h4 class="cat_title">ROLES</h4>
+               <p class="categories">Branding, Layout Design</p>
+       </div>
+       </section>
+        
+    <div class="proj_assets_50"><figure><img src="images/bistro/IMG_0115.JPG"></figure></div> 
+    <div class="proj_assets_50"><figure><img src="images/bistro/inside.jpg"></img></figure></div>
+       <div class="proj_moreinfo">
+        <p>Located on the corner of Parc Lafontaine, Bistro Tôt ou Tard offers a relaxed atmosphere from morning to night, offering brunch until 4 pm everyday. In the summer, the bistro opens up 2 terraces where customers can enjoy the view of the park. </p>
+    </div>
+                    
+   <div class="proj_assets"><figure><img src="images/bistro/bar.jpg"></figure></div> 
+    
+      <div class="proj_moreinfo">
+        <p>Bistro Tôt ou Tard is one of my go-to spots for food: for brunch on the weekend with friends or for take-out on weeknight I don't have energy left over for cooking. It seems like there's always for something for everyone on the menu no matter what the time of day. </p>
+    </div> 
+    
+          <div class="proj_assets_smaller" id="bistrologo"><figure><img src="images/bistro/bistro_logo_animated.gif"></figure></div> 
+          
+           
+          
+       <div class="proj_moreinfo">
+        <p>I wanted to give my thanks to this place by imagining a new logo that would tell their story a little better. Tôt meaning early and Tard meaning late in French, the sun and moon I believed were ideal icons for communicating the bistro's ability to serve day and night. Inspired by their red-lit signage on the outside of the building, I also developed a new typeface in the same colour in a more modern sans-serif.</p>
+    </div> 
+              
+  <div class="proj_assets"><figure><img src="images/bistro/bistro_menu.png"></figure></div>      <div class="proj_sidebyside"><figure><img src="images/bistro/dejeuner_exphoto.jpg"></figure><figure><img src="images/bistro/bistro_editv2_lessblurry.png"></figure></div>
+        <div class="proj_assets"><figure><img src="images/bistro/bistro_mockup.png"></figure></div>    
+
+        
+            <div class="nextproject">
+        <a href="carekit.html"><h2>next project →</h2></a>
+             </div>    
+
+   </div>
+         <footer><h5><i class="far fa-paper-plane"></i> → justine.provost@hotmail.ca</h5>
+   <h5>this website is proudly set in fonts by <a href="https://pangrampangram.com/" target="_blank">Pangram Pangram Foundry</a></h5></footer>
+</div>
+
+   
+   <script>     
+
+const cursor = document.querySelector('.cursor');
+
+    document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+    })
+
+    document.addEventListener('click', () => {
+        cursor.classList.add("expand");
+
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+
+        }, 500)
+    })
+</script>   
+     
+    <span id="trigger" onclick="openNav()"><i class="fas fa-ellipsis-h"></i></span>
+    
+    <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+    <script defer src="js/script_swup.js"></script>
+
+
+	<script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    
+        <!-- Barba Core -->
+  <script src="https://unpkg.com/@barba/core"></script>
+
+  <!-- GSAP for animation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+  
+    <!-- Some basic helper functions -->
+  <script src="js/helper.js"></script>
+
+  <!-- Main JS file -->
+  <script src="js/main.js"></script>
+    
+       <script src="../js/lottie.js"></script>
+       <script src="../js/saf_icons.js"></script> 
+    
+</body>
+</html>

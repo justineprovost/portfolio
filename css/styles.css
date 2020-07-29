@@ -107,14 +107,14 @@ h5 a:hover {
 }
 
 h6 {
-    font-family: 'object_sansheavy';
+    font-family: 'agrandirbold';
     letter-spacing: 0.8px;
     font-size:1em;
 }
 
 
 p {
-    font-family: 'object_sansregular';
+    font-family: 'agrandirregular';
     font-size:1em;
     color:#333;
 }
@@ -145,14 +145,6 @@ h2 a:hover {
     transition:all .4s;
     }
 
-figcaption {
-    font-family: 'Rubik', sans-serif;
-    font-style: italic;
-    font-size:1em;
-    padding:1em;
-    color:grey;
-    text-align: center;
-}
 
 /***NAVIGATION***/
 

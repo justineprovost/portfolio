@@ -972,7 +972,6 @@ aside li {
     text-align: right;
     align-items: center;
     justify-content:center;
-    font-family: 'object_sansheavy';
 }
 
 .categories {
@@ -990,7 +989,6 @@ aside li {
     align-items: flex-start;
     justify-content:center;
     font-size:0.85em;
-    font-family: 'object_sansheavy';
 }
     
 .proj_assets {

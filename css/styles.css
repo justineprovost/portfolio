@@ -439,7 +439,7 @@ main h1 {
     display:flex;
     text-align:left;
     align-items: center;
-    font-family: 'object_sansheavy';
+    font-family:'agrandirbold';
 }
 
 .categories {
@@ -457,7 +457,7 @@ main h1 {
     display:flex;
     align-items: flex-start;
     font-size:1em;
-    font-family: 'object_sansheavy';
+    font-family: 'agrandirbold';
 }
 
 .proj_assets {

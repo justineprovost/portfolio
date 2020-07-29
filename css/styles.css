@@ -169,7 +169,7 @@ header {
 #trigger {
 	font-size:2em;
 	cursor:pointer;
-	position:fixed;
+	position:absolute;
 	top:3.5vmax;
 	right:3.5vmax;
 	z-index: 1;

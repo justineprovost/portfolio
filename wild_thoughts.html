@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>justine provost - wild thoughts quiz</title>
+      <link rel="stylesheet" type="text/css" href="../css/all.css" >
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js" integrity="sha256-z0T3r+4uTjAkB5CHxybF9RQwAzHEdFB5+hJe/pGAcPg=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css"> 
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="shortcut icon" type="image/jpg" href="images/asteriks.svg"/>
+</head>
+<body data-barba="wrapper">
+<div class="loading-container">
+<div class="loading-screen">
+</div>
+</div>
+      <header>
+       <a class="logo" href="index.html"><h5>justine provost*</h5></img></a>
+       <div class="main_menu" >
+            <ul>
+               <a href="index.html"><li>Work</li></a>
+               <a href="about.html"><li>About</li></a>
+               <a ><li>|</li></a>
+               <a href="index.html"><li>FR</li></a>
+           </ul>
+       </div>
+   </header>
+   <nav id="myNav" class="overlay" role="navigation">
+         <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-asterisk"></i></span>
+           <ul class="overlay-content">
+               <a href="index.html"><li>Work</li></a>
+               <a href="about.html"><li>About</li></a>
+               <a ><li>|</li></a>
+               <a href="index.html"><li>FR</li></a>
+           </ul>
+       </nav>
+   
+   <aside>
+       <ul>
+           <li><a href="http://www.behance.net/justineprovost" target="_blank"><i class="fab fa-behance"></i></a></li>
+           <li><a href="https://www.linkedin.com/in/justineprovost/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+           <li><a href="https://dribbble.com/ju_pro" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+       </ul>
+   </aside>
+<div data-barba="container" data-barba-namespace="wild">
+   <div class="proj_page" id="saf_page">
+   
+   
+   <section class="proj_intro">
+       <div class="proj_desc">
+              <h2 class="proj_title">Wild Thoughts</h2>
+               <p class="summary">An animated and interactive website on our perception of different species in Montreal</p>
+               <h4 class="year_title">YEARS</h4>
+               <p class="year">2020</p>
+               <h4 class="cat_title">ROLES</h4>
+               <p class="categories">Web design, User Interface design, Animation</p>
+       </div>
+       </section>
+           
+                          <div class="proj_assets_big"><figure><img src="images/wild_thoughts.png"></img></figure></div>
+
+            
+    
+    <div class="proj_para">
+        <p>View the protoype here.</p>
+   </div>
+
+    
+        
+            <div class="nextproject">
+        <a href="about.html"><h2>about page →</h2></a>
+             </div>    
+   </div>
+      <footer><h5><i class="far fa-paper-plane"></i> → justine.provost@hotmail.ca</h5>
+   <h5>this website is proudly set in fonts by <a href="https://pangrampangram.com/" target="_blank">Pangram Pangram Foundry</a></h5></footer>
+</div>
+   
+   <script>     
+
+const cursor = document.querySelector('.cursor');
+
+    document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+    })
+
+    document.addEventListener('click', () => {
+        cursor.classList.add("expand");
+
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+
+        }, 500)
+    })
+</script>   
+     
+    <span id="trigger" onclick="openNav()"><i class="fas fa-ellipsis-h"></i></span>
+    
+    <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+    <script defer src="js/script_swup.js"></script>
+
+
+	<script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    
+      <!-- Barba Core -->
+  <script src="https://unpkg.com/@barba/core"></script>
+
+  <!-- GSAP for animation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+
+  <!-- Some basic helper functions -->
+  <script src="../js/helper.js"></script>
+
+  <!-- Main JS file -->
+  <script src="../js/main.js"></script>
+    
+       <script src="js/lottie.js"></script>
+       <script src="js/carekit.js"></script> 
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="896" viewBox="0 0 414 896">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="279" height="240" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-iPhone_XR_XS_Max_11_1">
+      <rect width="414" height="896"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_XR_XS_Max_11_1" data-name="iPhone XR/XS Max/11 – 1" clip-path="url(#clip-iPhone_XR_XS_Max_11_1)">
+    <rect width="414" height="896" fill="#faf5f8"/>
+    <g id="Continue" transform="translate(44 695)">
+      <rect id="Rectangle_119" data-name="Rectangle 119" width="327" height="48" rx="4" fill="#faa47a"/>
+      <text id="create" transform="translate(164 28)" fill="#fff" font-size="10" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-14.734" y="0">create</tspan></text>
+    </g>
+    <g id="Input" transform="translate(68 302)" clip-path="url(#clip-path)">
+      <g id="Input-2" data-name="Input" transform="translate(-470 -281)">
+        <g id="Rectangle_85" data-name="Rectangle 85" transform="translate(470 281)" fill="#fff" stroke="#b0daae" stroke-width="1">
+          <rect width="279" height="48" stroke="none"/>
+          <rect x="0.5" y="0.5" width="278" height="47" fill="none"/>
+        </g>
+        <text id="Full_Name" data-name="Full Name" transform="translate(490 310)" fill="#b0daae" font-size="14" font-family="Bilo-Medium, Bilo" font-weight="500"><tspan x="0" y="0">Full Name</tspan></text>
+      </g>
+      <g id="Input-3" data-name="Input" transform="translate(-470 -217)">
+        <g id="Rectangle_85-2" data-name="Rectangle 85" transform="translate(470 281)" fill="#fff" stroke="#b0daae" stroke-width="1">
+          <rect width="279" height="48" stroke="none"/>
+          <rect x="0.5" y="0.5" width="278" height="47" fill="none"/>
+        </g>
+        <text id="Email" transform="translate(490 310)" fill="#b0daae" font-size="14" font-family="Bilo-Medium, Bilo" font-weight="500"><tspan x="0" y="0">Email</tspan></text>
+      </g>
+      <g id="Input-4" data-name="Input" transform="translate(-470 -153)">
+        <g id="Rectangle_85-3" data-name="Rectangle 85" transform="translate(470 281)" fill="#fff" stroke="#b0daae" stroke-width="1">
+          <rect width="279" height="48" stroke="none"/>
+          <rect x="0.5" y="0.5" width="278" height="47" fill="none"/>
+        </g>
+        <text id="Password" transform="translate(490 310)" fill="#b0daae" font-size="14" font-family="Bilo-Medium, Bilo" font-weight="500"><tspan x="0" y="0">Password</tspan></text>
+      </g>
+      <g id="Input-5" data-name="Input" transform="translate(-470 -89)">
+        <g id="Rectangle_85-4" data-name="Rectangle 85" transform="translate(470 281)" fill="#fff" stroke="#b0daae" stroke-width="1">
+          <rect width="279" height="48" stroke="none"/>
+          <rect x="0.5" y="0.5" width="278" height="47" fill="none"/>
+        </g>
+        <text id="Confirm_Password" data-name="Confirm Password" transform="translate(490 310)" fill="#b0daae" font-size="14" font-family="Bilo-Medium, Bilo" font-weight="500"><tspan x="0" y="0">Confirm Password</tspan></text>
+      </g>
+    </g>
+    <text id="Create_an_Account" data-name="Create an Account" transform="translate(208 266)" fill="#89a97f" font-size="20" font-family="Bilo-Bold, Bilo" font-weight="700"><tspan x="-81.99" y="0">Create an Account</tspan></text>
+    <text id="By_creating_an_account_you_agree_to_our_Terms_of_Service_and_Privacy_Policy" data-name="By creating an account you agree to our
+Terms of Service and Privacy Policy" transform="translate(207 595)" fill="#89a97f" font-size="10" font-family="Bilo-Medium, Bilo" font-weight="500"><tspan x="-86.975" y="0">By creating an account you agree to our</tspan><tspan x="-76.605" y="20">Terms of Service and Privacy Policy</tspan></text>
+    <g id="Group_92" data-name="Group 92" transform="translate(-69.776 -297.362)">
+      <g id="Group_90" data-name="Group 90" transform="translate(299.6 431.838)">
+        <path id="Path_677" data-name="Path 677" d="M250.87,430.722h2.593a17.426,17.426,0,0,0,4.965-.441V452l9.268-11.86h7.831L267.419,450.4l8.659,13.791h-8.273l-5.682-9.433-3.7,4.413v5.02H250.87Z" transform="translate(-250.87 -430.281)" fill="#89a97f"/>
+        <path id="Path_678" data-name="Path 678" d="M266.4,435.842h2.595a17.68,17.68,0,0,0,4.963-.441v24.493H266.4Z" transform="translate(-237.845 -425.986)" fill="#89a97f"/>
+        <path id="Path_679" data-name="Path 679" d="M276.48,454.049v-8.992H272.4v-4.965l.386-.055c3.862-.552,5.958-2.924,5.958-6.84v-1.434h.331a17.7,17.7,0,0,0,4.965-.441v7.944h8.771v5.792h-8.771v10.15c0,2.041.936,3.089,2.315,3.089s2.65-1.269,3.422-2.979l5.13,3.2c-1.436,3.42-4.8,5.349-8.771,5.349C280.342,463.866,276.48,460.007,276.48,454.049Z" transform="translate(-232.812 -429.409)" fill="#89a97f"/>
+      </g>
+      <g id="Group_91" data-name="Group 91" transform="translate(192.776 441.143)">
+        <path id="Path_680" data-name="Path 680" d="M192.776,447.974c0-6.73,6.123-12.633,13.9-12.633a11.4,11.4,0,0,1,10.15,5.406L211.7,444.94c-1.434-2.372-3.312-3.586-5.463-3.586-3.253,0-5.625,2.7-5.625,6.675,0,3.917,2.207,6.509,6.011,6.509,2.7,0,4.744-1.215,5.629-3.365l4.963,3.365c-2.1,3.751-5.847,5.956-10.866,5.956C198.787,460.494,192.776,454.869,192.776,447.974Z" transform="translate(-192.776 -435.341)" fill="#a8d29e"/>
+        <path id="Path_681" data-name="Path 681" d="M207.635,453.819c0-5.625,5.847-6.673,10.7-7.28,3.034-.386,4.411-.607,4.411-2.7,0-1.876-1.158-2.869-3.7-2.869-2.591,0-4.466.993-5.3,2.813l-4.963-2.924c1.876-3.7,6.178-5.516,11.2-5.516,6.234,0,10.259,2.924,10.259,9.433v15.17h-7.282v-3.367c-1.379,2.595-3.86,3.917-7.39,3.917C210.669,460.494,207.635,457.957,207.635,453.819Zm15.225-2.756v-2.648c-.664,1.158-1.71,1.489-3.643,1.765-1.874.221-4.411.607-4.411,3.034,0,1.655,1.048,2.7,3.31,2.7C220.874,455.917,222.86,454.428,222.86,451.063Z" transform="translate(-180.312 -435.341)" fill="#a8d29e"/>
+        <path id="Path_682" data-name="Path 682" d="M223.5,435.893H226.1a15.565,15.565,0,0,0,4.963-.441v4.8c1.434-3.53,3.917-4.91,6.73-4.91a6.688,6.688,0,0,1,6.4,4.358L239,444.167c-.993-1.71-1.931-2.372-3.42-2.372-2.591,0-4.523,2.262-4.523,6.068v12.081H223.5Z" transform="translate(-167.003 -435.341)" fill="#a8d29e"/>
+        <path id="Path_683" data-name="Path 683" d="M235.235,447.974a12.973,12.973,0,0,1,12.686-12.633c6.73,0,12.083,5.516,12.083,13.791H242.848a6.009,6.009,0,0,0,6.4,5.737c2.869,0,4.577-1.214,5.461-3.2l5.184,2.868c-1.819,3.586-5.461,5.956-11.031,5.956C241.025,460.494,235.235,454.924,235.235,447.974Zm7.613-2.758h9.6c-.165-2.758-1.874-4.91-4.632-4.91C244.889,440.306,243.234,442.512,242.848,445.215Z" transform="translate(-157.161 -435.341)" fill="#a8d29e"/>
+      </g>
+      <path id="Path_680-2" data-name="Path 680" d="M276.973,431.25a2.691,2.691,0,0,0-.07-.607,3.019,3.019,0,0,0-5.726-.287.062.062,0,0,1-.075.037.072.072,0,0,1-.037-.037,3.018,3.018,0,0,0-5.724.287,2.593,2.593,0,0,0-.07.607c0,.048,0,.1,0,.145s0,.114,0,.173c0,3.255,5.853,7.951,5.853,7.951s5.849-4.7,5.849-7.951c0-.059,0-.114,0-.173S276.973,431.3,276.973,431.25Z" transform="translate(60.81)" fill="#f79065"/>
+    </g>
+  </g>
+</svg>

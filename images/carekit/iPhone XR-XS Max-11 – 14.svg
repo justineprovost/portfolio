@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="896" viewBox="0 0 414 896">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="327" height="299" rx="16" fill="#290909"/>
+    </clipPath>
+    <filter id="Union_1" x="24" y="306" width="455" height="420" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.796"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_2" x="-64" y="225" width="455" height="420" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_3" x="511.23" y="512.31" width="455.099" height="418.699" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.796"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_4" x="423.13" y="432.61" width="455.099" height="418.699" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-iPhone_XR_XS_Max_11_14">
+      <rect width="414" height="896"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_XR_XS_Max_11_14" data-name="iPhone XR/XS Max/11 – 14" clip-path="url(#clip-iPhone_XR_XS_Max_11_14)">
+    <rect width="414" height="896" fill="#faf5f8"/>
+    <text id="Type_in_the_name_of_a_song_that_always_makes_you_dance" data-name="Type in the name of a song that always makes you dance" transform="translate(80 200)" fill="#89a97f" font-size="20" font-family="Bilo-Bold, Bilo" font-weight="700"><tspan x="9.69" y="20">Type in the name of a song </tspan><tspan x="27.46" y="50">that always makes you </tspan><tspan x="100.5" y="80">dance</tspan></text>
+    <g id="Next" transform="translate(216 699)">
+      <rect id="Rectangle_150" data-name="Rectangle 150" width="155" height="48" rx="4" fill="#faa47a"/>
+      <text id="next-2" data-name="next" transform="translate(78 28)" fill="#fff" font-size="10" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-10.281" y="0">next</tspan></text>
+    </g>
+    <g id="Path_657" data-name="Path 657" transform="translate(44 699)" fill="none">
+      <path d="M4,0H151a4,4,0,0,1,4,4V44a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" stroke="none"/>
+      <path d="M 4 2 C 2.897201538085938 2 2 2.897205352783203 2 4 L 2 44 C 2 45.1027946472168 2.897201538085938 46 4 46 L 132.3208160400391 46 L 151 46 C 152.1027984619141 46 153 45.1027946472168 153 44 L 153 4 C 153 2.897205352783203 152.1027984619141 2 151 2 L 4 2 M 4 0 L 151 0 C 153.2091369628906 0 155 1.790863037109375 155 4 L 155 44 C 155 46.20913696289062 153.2091369628906 48 151 48 C 147.5559997558594 48 141.7393493652344 48 132.3208160400391 48 C 95.57081604003906 48 4 48 4 48 C 1.790863037109375 48 0 46.20913696289062 0 44 L 0 4 C 0 1.790863037109375 1.790863037109375 0 4 0 Z M 151 48 C 154.3316192626953 48 155.4426116943359 48 155.4426116943359 48 L 151 48 Z" stroke="none" fill="#faa47a"/>
+    </g>
+    <text id="skip" transform="translate(122 727)" fill="#faa47a" font-size="10" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-10.005" y="0">skip</tspan></text>
+    <g id="Component_163_5" data-name="Component 163 – 5" transform="translate(172 158)">
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="3" cy="3" r="3" fill="#b0daae"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="3" cy="3" r="3" transform="translate(16)" fill="#b0daae"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(32)" fill="#89a97f"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="3" cy="3" r="3" transform="translate(48)" fill="#b0daae"/>
+      <circle id="Ellipse_299" data-name="Ellipse 299" cx="3" cy="3" r="3" transform="translate(64)" fill="#b0daae"/>
+    </g>
+    <text id="Type_something_" data-name="Type something…" transform="translate(94 457)" fill="#ad9a9f" font-size="28" font-family="Bilo"><tspan x="8.346" y="29">Type something…</tspan></text>
+    <g id="Icon_2" data-name="Icon 2" transform="translate(44 326)">
+      <g id="Icon_2-2" data-name="Icon 2">
+        <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+          <g id="Group_1" data-name="Group 1" transform="translate(-98 -90.731)">
+            <g transform="matrix(1, 0, 0, 1, 54, -235.27)" filter="url(#Union_1)">
+              <path id="Union_1-2" data-name="Union 1" d="M326.924,390V0H425V390ZM0,390V300H326.924v90Z" transform="translate(44 326)" fill="#eaebf3"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 54, -235.27)" filter="url(#Union_2)">
+              <path id="Union_2-2" data-name="Union 2" d="M326.924,390V0H425V390ZM0,390V300H326.924v90Z" transform="translate(371 625) rotate(180)" fill="#eaebf3"/>
+            </g>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -44, -326)" filter="url(#Union_3)">
+            <path id="Union_3-2" data-name="Union 3" d="M327,388.7V0h98.1V388.7Zm-327,0V299H327v89.7Z" transform="translate(531.23 532.31)" fill="#eaebf3"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -44, -326)" filter="url(#Union_4)">
+            <path id="Union_4-2" data-name="Union 4" d="M327,388.7V0h98.1V388.7Zm-327,0V299H327v89.7Z" transform="translate(858.23 831.31) rotate(180)" fill="#eaebf3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

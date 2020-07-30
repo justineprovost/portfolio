@@ -391,7 +391,7 @@ main h1 {
     justify-content: center;
     align-items: center;
     height:100%;
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     padding:6vmax;
 }
 

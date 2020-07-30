@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="896" viewBox="0 0 414 896">
+  <defs>
+    <filter id="Rectangle_2" x="25.5" y="307.5" width="374" height="349" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3" x="15.5" y="297.5" width="374" height="349" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.796"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_301" x="155" y="431" width="104" height="104" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="34" height="34" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-iPhone_XR_XS_Max_11_13">
+      <rect width="414" height="896"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_XR_XS_Max_11_13" data-name="iPhone XR/XS Max/11 – 13" clip-path="url(#clip-iPhone_XR_XS_Max_11_13)">
+    <rect width="414" height="896" fill="#faf5f8"/>
+    <g id="Icon_1" data-name="Icon 1" transform="translate(43 325)">
+      <g id="Icon_1-2" data-name="Icon 1">
+        <g transform="matrix(1, 0, 0, 1, -43, -325)" filter="url(#Rectangle_2)">
+          <rect id="Rectangle_2-2" data-name="Rectangle 2" width="329" height="304" rx="16" transform="translate(43 325)" fill="#eaebf3"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -43, -325)" filter="url(#Rectangle_3)">
+          <rect id="Rectangle_3-2" data-name="Rectangle 3" width="329" height="304" rx="16" transform="translate(43 325)" fill="#faf5f8"/>
+        </g>
+      </g>
+    </g>
+    <text id="Upload_a_photo_of_a_happy_moment" data-name="Upload a photo
+of a happy moment" transform="translate(80 200)" fill="#89a97f" font-size="20" font-family="Bilo-Bold, Bilo" font-weight="700"><tspan x="59.41" y="20">Upload a photo</tspan><tspan x="41.86" y="50">of a happy moment</tspan></text>
+    <g id="Next" transform="translate(216 699)">
+      <rect id="Rectangle_150" data-name="Rectangle 150" width="155" height="48" rx="4" fill="#faa47a"/>
+      <text id="next-2" data-name="next" transform="translate(78 28)" fill="#fff" font-size="10" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-10.281" y="0">next</tspan></text>
+    </g>
+    <g id="Path_657" data-name="Path 657" transform="translate(44 699)" fill="none">
+      <path d="M4,0H151a4,4,0,0,1,4,4V44a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" stroke="none"/>
+      <path d="M 4 2 C 2.897201538085938 2 2 2.897205352783203 2 4 L 2 44 C 2 45.1027946472168 2.897201538085938 46 4 46 L 132.3208160400391 46 L 151 46 C 152.1027984619141 46 153 45.1027946472168 153 44 L 153 4 C 153 2.897205352783203 152.1027984619141 2 151 2 L 4 2 M 4 0 L 151 0 C 153.2091369628906 0 155 1.790863037109375 155 4 L 155 44 C 155 46.20913696289062 153.2091369628906 48 151 48 C 147.5559997558594 48 141.7393493652344 48 132.3208160400391 48 C 95.57081604003906 48 4 48 4 48 C 1.790863037109375 48 0 46.20913696289062 0 44 L 0 4 C 0 1.790863037109375 1.790863037109375 0 4 0 Z M 151 48 C 154.3316192626953 48 155.4426116943359 48 155.4426116943359 48 L 151 48 Z" stroke="none" fill="#faa47a"/>
+    </g>
+    <text id="skip" transform="translate(122 727)" fill="#faa47a" font-size="10" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-10.005" y="0">skip</tspan></text>
+    <g id="Component_163_4" data-name="Component 163 – 4" transform="translate(172 158)">
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="3" cy="3" r="3" fill="#b0daae"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="3" cy="3" r="3" transform="translate(16)" fill="#89a97f"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(32)" fill="#b0daae"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="3" cy="3" r="3" transform="translate(48)" fill="#b0daae"/>
+      <circle id="Ellipse_299" data-name="Ellipse 299" cx="3" cy="3" r="3" transform="translate(64)" fill="#b0daae"/>
+    </g>
+    <g id="Component_165_6" data-name="Component 165 – 6" transform="translate(164 434)">
+      <g transform="matrix(1, 0, 0, 1, -164, -434)" filter="url(#Ellipse_301)">
+        <circle id="Ellipse_301-2" data-name="Ellipse 301" cx="43" cy="43" r="43" transform="translate(164 434)" fill="#faa47a"/>
+      </g>
+      <g id="Symbol_14_5" data-name="Symbol 14 – 5" transform="translate(26 26)" clip-path="url(#clip-path)">
+        <path id="Union_1" data-name="Union 1" d="M14.874,34V19.125H0v-4.25H14.874V0h4.251V14.875H34v4.25H19.126V34Z" fill="#faf5f8"/>
+      </g>
+    </g>
+  </g>
+</svg>

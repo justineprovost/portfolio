@@ -365,7 +365,7 @@ main h1 {
 
 .proj_page{
     display: grid;
-    grid-template-columns: 0.9fr minmax(200px, 900px) 1fr;
+    grid-template-columns: 1fr;
 }
 
 .topimg{
@@ -407,9 +407,19 @@ main h1 {
     justify-content: flex-start;
     font-size: 2.8em;
     align-items:center;
-    grid-column: 1 / 5;
+    grid-column: 1 / 6;
     grid-row: 1 / 2;
     text-align: left;
+}
+
+.proj_moreinfo {
+    min-height:80vh;
+    grid-column: 1 / 2;
+    display:flex;
+    align-items: center;
+    font-size:1.5em;
+    line-height:1.4;
+    padding:0 1em;
 }
 
 .summary {
@@ -462,7 +472,7 @@ main h1 {
 
 .proj_assets {
     height:100%;
-    grid-column: 1 / 5;
+    grid-column: 1 / 4;
     overflow-y: hidden;
     display:flex;
     align-items:center;
@@ -542,10 +552,10 @@ main h1 {
 }
 
 .proj_sidebyside_blank {
-height:60vh;
-    grid-column: 1 / 5;
+height:auto;
+    grid-column: 1 / 4;
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 }
 
@@ -560,6 +570,7 @@ height:60vh;
     width:100%;
 
 }
+
 
 #safcolours{
     grid-column: 1/5;
@@ -909,6 +920,11 @@ aside li {
 
 /***PROJECTS DESKTOP***/
     
+.proj_page{
+    display: grid;
+    grid-template-columns: 0.9fr minmax(200px, 900px) 1fr;
+}
+    
 .topimg{
     grid-column: 1 / 4;
     padding-top:0;
@@ -993,7 +1009,7 @@ aside li {
     
 .proj_assets {
     height:100%;
-    grid-column: 1 / 5;
+    grid-column: 1 / 4;
     overflow-y: hidden;
     display:flex;
     align-items:center;
@@ -1042,6 +1058,14 @@ aside li {
     grid-template-rows: repeat(2, 1fr);
     grid-gap:1em;
     
+}
+    
+.proj_sidebyside_blank {
+height:60vh;
+    grid-column: 1 / 5;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .proj_imggrid figure {

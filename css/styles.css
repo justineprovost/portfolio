@@ -429,7 +429,7 @@ main h1 {
     vertical-align: bottom;
     grid-column: 1 / 6;
     grid-row: 2 / 5;
-    font-size:1.5em;
+    font-size:1.5rem;
     line-height: 1.4em;
 }
 
@@ -608,19 +608,19 @@ height:auto;
     background:#f1f9ea;
 }
 
-#cap{
-    grid-row:2 / 3;
+.cap{
     grid-column: 1 / 4;
     display:flex;
     justify-content: center;
     align-items: flex-start;
-    padding:0.8rem;
+    text-align: center;
+    padding:1rem;
 }
 
-#cap h6 {
+.cap h6 {
     font-size:0.8rem;
     font-family: 'object_sansregular';
-
+color: grey;
 }
 
 
@@ -966,7 +966,7 @@ aside li {
     vertical-align: bottom;
     grid-column: 1 / 5;
     grid-row: 3 / 5;
-    font-size:1.5em;
+    font-size:1.4rem;
     line-height: 1.7em;
 }
 
@@ -1014,6 +1014,7 @@ aside li {
     display:flex;
     align-items:center;
     justify-content: center;
+    flex-flow: column;
     padding:0;
 }
     

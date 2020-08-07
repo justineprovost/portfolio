@@ -92,7 +92,7 @@ h4 {
 }
 
 h5 {
-    font-family: 'agrandirbold';
+    font-family: 'object_sansregular';
     letter-spacing: 0.8px;
     font-size:1.1em;
 }
@@ -772,7 +772,6 @@ footer {
     flex-flow: column;
     justify-content: center;
     font-size:0.7rem;
-    font-family: 'object_sansregular';
 }
 
 

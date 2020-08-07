@@ -387,6 +387,21 @@ main h1 {
     height:100vh;
 }
 
+.cap{
+    grid-column: 1 / 4;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding:1rem;
+}
+
+.cap h6 {
+    font-size:0.8rem;
+    font-family: 'object_sansregular';
+color: grey;
+}
+
 .proj_intro {
     justify-content: center;
     align-items: center;
@@ -417,9 +432,9 @@ main h1 {
     grid-column: 1 / 2;
     display:flex;
     align-items: center;
-    font-size:1.5em;
-    line-height:1.4;
-    padding:0 1em;
+    font-size:1rem;
+    line-height:1.6;
+    padding: 0 6vmax;
 }
 
 .summary {
@@ -608,21 +623,6 @@ height:auto;
     background:#f1f9ea;
 }
 
-.cap{
-    grid-column: 1 / 4;
-    display:flex;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-    padding:1rem;
-}
-
-.cap h6 {
-    font-size:0.8rem;
-    font-family: 'object_sansregular';
-color: grey;
-}
-
 
 .proj_assets video {
     width:100%;
@@ -717,11 +717,6 @@ color: grey;
     font-size:3em;
     font-family: 'agrandirbold';
     text-transform: lowercase;
-}
-
-.cap {
-    grid-column: 2 / 3;
-    font-size:0.2em;
 }
 
 #bistrologo {
@@ -870,7 +865,10 @@ padding:0;
     grid-column: 2/3;
 }
     
-
+.cap {
+    grid-column: 2 / 3;
+    font-size:0.2em;
+}
 
 .main_menu i {
     display: none;

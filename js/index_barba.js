@@ -9,7 +9,7 @@ function pageTransition (){
 function contentAnimation(){
     
     var tl= gsap.timeline();
-    tl.from('left', {duration:1.5, translateY: 50, opacity:0})
+    tl.from('.left', {duration:1.5, translateY: 50, opacity:0})
 }
 
 function delay(n) {
@@ -30,7 +30,7 @@ barba.init({
             const done = this.async();
             
             pageTransition();
-            await dlay(1500);
+            await delay(1500);
             done();
         }
         

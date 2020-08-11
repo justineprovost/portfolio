@@ -19,41 +19,39 @@ function pageTransition() {
 
 // Function to animate the content of each page
 function contentAnimation() {
+  
+    var tl = gsap.timeline();
+    tl.from('.is-animated', { duration: .5, translateY: 10, opacity: 0, stagger: 0.4 });
+    tl.from('.main-navigation', { duration: .5, translateY: -10, opacity: 0});
 
-  var tl = gsap.timeline();
-  tl.from('.is-animated', { duration: .5, translateY: 10, opacity: 0, stagger: 0.4 });
-  tl.from('.main-navigation', { duration: .5, translateY: -10, opacity: 0});
 
-//  $('.green-heading-bg').addClass('show');
-    $(window).scrollTop(0);
+    var tl= gsap.timeline();
+    tl.from('.left', {duration:1.5, translateY: 50, opacity:0, delay:1})    
+
+
+    
 }
-
-
 
 
 $(function() {
 
-    
-
   barba.init({
-
     sync: true,
-
     transitions: [{
-
-      async leave(data) {
-        
+        async leave(data) {
         const done = this.async();
-        
         pageTransition();
+        contentAnimation();
         await delay(1000);
+        $(window).scrollTop(0);
         done();
-
       },
 
-      async enter(data) {
+      async once(data) {
+        const done = this.async();
         contentAnimation();
-          
+        await delay(0);
+        done();
       },
 
     }]

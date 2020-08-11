@@ -729,10 +729,31 @@ height:auto;
     align-items:center;
 }
 
+.nextproject a {
+    display: flex;
+    flex-flow: wrap;
+    transition:all 0.5s ease;
+}
+
+.nextproject a:hover {
+    transform: translateX(10%);
+}
+
 .nextproject h2{
     font-size:3em;
     font-family: 'agrandirbold';
     text-transform: lowercase;
+    transition:all 0.5s ease;
+}
+
+.nextproject .arrow{
+    font-family: 'agrandirbold';
+    align-self: center;
+    font-size:3em;
+}
+
+.nextproject h2:hover {
+    margin-right:0.8em;
 }
 
 #bistrologo {

@@ -15,12 +15,12 @@
     <link rel="preload" as="font" href="portfolio/fonts/agrandir-regular-webfont.woff2" type="font/woff2" crossorigin="anonymous">
         <link rel="preload" as="font" href="portfolio/fonts/Agrandir-Bold.woff" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="portfolio/fonts/Agrandir-Bold.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css'>
+    <link rel="preload" as="style" href='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css'>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js" integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
+    <script rel="preload" as="script" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"></script>
+<script rel="preload" as="script" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script rel="preload" as="script" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+<script rel="preload" as="script"  src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js" integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
 <link rel="shortcut icon" type="image/jpg" href="images/asteriks.svg"/>
 </head>
     
@@ -29,7 +29,7 @@
       <div class="loading-screen">
       </div>
     </div>
-   <header>
+   <header class="main-navigation">
        <a class="logo"><img src="images/logolight.png"></a>
        <div class="main_menu" >
             <ul class="transition">
@@ -41,7 +41,7 @@
        </div>
    </header>
       <span id="trigger" onclick="openNav()"><i class="fas fa-ellipsis-h"></i></span>
-   <nav id="myNav" class="overlay" role="navigation">
+   <nav id="myNav" class="overlay" role="navigation" class="main-navigation">
          <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-asterisk"></i></span>
            <ul class="overlay-content">
                <a href="saf.html"><li>Work</li></a>
@@ -61,7 +61,7 @@
    
 <div data-barba="container" data-barba-namespace="home">
   <div id="homepage">
-   <main data-aos="fade-up">
+   <main class="left">
        <h1>Hi! I'm Justine, a visual designer passionate about sustainability and creating thoughtful designs</h1>
    </main>
     
@@ -71,8 +71,8 @@
      
    
    <div data-barba="container" data-barba-namespace="work" id="main_pres">
-   <div id="pres" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><h2 id="here">here are my latest projects:</h2></div>
-   <div class="projects" id="work">
+   <div id="pres" class="left"><h2 id="here">here are my latest projects:</h2></div>
+   <div class="projects" id="work" class="left">
        <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="saf.html">Sustainability Action Fund</a></h2>
        <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="failures.html">Failures Book</a></h2>
        <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="carekit.html">Carekit</a></h2>
@@ -137,6 +137,7 @@ new ScrollMagic.Scene({triggerElement: ".box-1"}).setClassToggle(".box-1 .line",
 
   <!-- Main JS file -->
   <script src="js/main.js"></script>
+  
    
     <script src='https://unpkg.com/splitting@1.0.6/dist/splitting.min.js'></script>
     <script  src="js/script.js"></script>  

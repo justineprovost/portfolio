@@ -137,6 +137,7 @@ a:hover *{
 p a {
     font-family: 'agrandirbold';
     color:#038C5A;
+    letter-spacing: 0.8px;
 }
 
 p a:hover {
@@ -308,6 +309,8 @@ main h1 {
     animation: spin 1s infinite ;
     margin-bottom: 2em;
 }
+
+
 
 @keyframes spin {
     from {

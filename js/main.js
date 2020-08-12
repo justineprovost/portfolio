@@ -21,15 +21,17 @@ function pageTransition() {
 function contentAnimation() {
   
     var tl = gsap.timeline();
-    tl.from('.is-animated', { duration: .5, translateY: 10, opacity: 0, stagger: 0.4 });
-    tl.from('.main-navigation', { duration: .5, translateY: -10, opacity: 0});
-
-
+    tl.from('.is-animated', { duration: .5, translateY: 10, opacity: 0 });
+    tl.from('.main-navigation', { duration: .5, translateY: -10, opacity: 0, delay:1});
     var tl= gsap.timeline();
-    tl.from('.left', {duration:0.5, translateY: 50, opacity:0, delay:0})    
+    tl.from('.left', {duration:0.5, translateY: 50, opacity:0, delay:2})    
+}
 
-
-    
+function homeTransition() {
+     var tl = gsap.timeline();
+  tl.set('.loading-home', { transformOrigin: "bottom center", delay:0});
+  tl.to('.loading-home', { duration: .5, scale: 1, delay:0});
+  tl.to('.loading-home', { duration: .5, scale: 0, transformOrigin: "center", skewX: 0, ease: "power1.out", delay: 1.5 });
 }
 
 
@@ -49,6 +51,7 @@ $(function() {
 
       async once(data) {
         const done = this.async();
+        homeTransition();
         contentAnimation();
         await delay(0);
         done();

@@ -975,7 +975,7 @@ display:grid;
 grid-template-columns: 0.5fr minmax(200px, 800px) 0.8fr;
 height:90vh;
 font-size:  2.8rem;
-padding:0;
+padding-bottom:1em;
 }
     
 #main_pres {

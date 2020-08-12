@@ -153,6 +153,38 @@ h2 a:hover {
     }
 
 
+
+    .loading-home {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  background:center no-repeat #AFD9AD;
+  width: 100vw;
+  height: 100vh;
+  transform: scaleY(0) skewX(0);
+  transform-origin: center;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+}
+    
+    .loading-home img {
+        width:50%;
+        animation: spin 2s forwards ;
+    }
+    
+    .loading-container-home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 7;
+  pointer-events: none;
+}
+
 /***NAVIGATION***/
 
 header {
@@ -329,7 +361,7 @@ main h1 {
     width: 5px;
     position: absolute;
     left: calc(35% - 2px);
-    animation: growmobile grow 1.5s infinite alternate cubic-bezier(0.65, 0, 0.35, 1);
+    animation: growmobile 1.5s infinite alternate cubic-bezier(0.65, 0, 0.35, 1);
     padding-top:0em;
 
 }

@@ -26,7 +26,7 @@ function contentAnimation() {
 
 
     var tl= gsap.timeline();
-    tl.from('.left', {duration:0.5, translateY: 50, opacity:0, delay:1})    
+    tl.from('.left', {duration:0.5, translateY: 50, opacity:0, delay:0})    
 
 
     

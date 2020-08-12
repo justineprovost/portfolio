@@ -806,10 +806,29 @@ footer {
     font-size:0.7rem;
 }
 
+/*************************************TABLET*****************************************/
 
-/*************************************TABLET & DESKTOP*****************************************/
 
 @media all and (min-width: 768px) {
+    #main_press {
+        padding:0 2em;
+    }
+    
+.proj_intro {
+padding:8vmax;
+}
+
+.proj_moreinfo {
+padding:0 8vmax;
+    font-size:1.2rem;
+}
+
+}
+
+
+/*************************************DESKTOP*****************************************/
+
+@media all and (min-width: 1024px) {
 
 /***NAVIGATION***/  
     

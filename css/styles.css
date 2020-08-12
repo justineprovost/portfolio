@@ -736,7 +736,7 @@ height:auto;
 }
 
 .nextproject a:hover {
-    transform: translateX(10%);
+    transform: translateX(1%);
 }
 
 .nextproject h2{
@@ -753,7 +753,7 @@ height:auto;
 }
 
 .nextproject h2:hover {
-    margin-right:0.8em;
+    margin-right:0.4em;
 }
 
 #bistrologo {
@@ -1144,6 +1144,14 @@ height:60vh;
 
 .nextproject h2{
     font-size:3em;
+}
+    
+.nextproject h2:hover {
+    margin-right:0.8em;
+}
+    
+.nextproject a:hover {
+    transform: translateX(16%);
 }
     
 #about {

@@ -329,6 +329,7 @@ main h1 {
     left: calc(35% - 2px);
     animation: grow 2s infinite forwards ease;
     animation-delay:2s;
+    padding-top:2em;
 
 }
 .line.active {
@@ -911,7 +912,7 @@ header nav {
 main {
 display:grid;
 grid-template-columns: 0.5fr minmax(200px, 800px) 0.8fr;
-height:100vh;
+height:90vh;
 font-size:  2.8rem;
 padding:0;
 }

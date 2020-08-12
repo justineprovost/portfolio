@@ -163,6 +163,7 @@ header {
     padding: 2rem;
     position:inherit;
     z-index:105;
+    opacity:1;
 }
 
 header:hover {
@@ -328,7 +329,7 @@ main h1 {
     width: 5px;
     position: absolute;
     left: calc(35% - 2px);
-    animation: growmobile 2s infinite forwards ease;
+    animation: growmobile grow 1.5s infinite alternate cubic-bezier(0.65, 0, 0.35, 1);
     padding-top:0em;
 
 }
@@ -336,7 +337,6 @@ main h1 {
 
 @keyframes growmobile {
     0% {
-        opacity:0;
         height:0vh;
     }
     50% {
@@ -344,7 +344,6 @@ main h1 {
     }
     
     100% {
-        opacity:100%;
         height:67vh;
     }
 }
@@ -681,14 +680,14 @@ height:auto;
 
 .proj_para {
     height:100%;
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     align-items:center;
     justify-content: left;
     font-size:1.2em;
     line-height: 1.7em;
     display: flex;
     flex-flow: column;
-    padding:2em 0;
+    padding: 6vmax;
 }
 
 
@@ -701,7 +700,7 @@ height:auto;
 }
 
 .proj_assets_multiple {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -714,7 +713,7 @@ height:auto;
 }
 
 .proj_assets_big {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     display:grid;
     align-items:center;
     justify-content: center;
@@ -723,6 +722,7 @@ height:auto;
 .proj_assets_big img {
     width:100%;
 }
+
 
 
 #saficons {
@@ -871,6 +871,37 @@ padding:0 8vmax;
   z-index: 7;
   pointer-events: none;
 }
+    
+    .loading-home {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  background:center no-repeat #AFD9AD;
+  width: 100vw;
+  height: 100vh;
+  transform: scaleY(0) skewX(0);
+  transform-origin: center;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+}
+    
+    .loading-home img {
+        width:10%;
+        animation: spin 2s forwards ;
+    }
+    
+    .loading-container-home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 7;
+  pointer-events: none;
+}
 
 /* Loading Screen Styling Ends */    
     
@@ -924,12 +955,12 @@ padding:0;
 }
     
 .line {
-   animation: grow 2s infinite forwards ease;
+   animation: grow 1.5s infinite alternate cubic-bezier(0.65, 0, 0.35, 1);
 }
     
     @keyframes grow {
     0% {
-        opacity:0;
+
         height:0vh;
     }
     50% {
@@ -937,7 +968,6 @@ padding:0;
     }
     
     100% {
-        opacity:100%;
         height:75vh;
     }
 }
@@ -1164,6 +1194,23 @@ height:60vh;
 .proj_imggrid img {
     width:100%;
 }
+    
+    .proj_assets_big {
+    grid-column: 2 / 3;
+}
+    
+    .proj_para {
+    grid-column: 2 / 3;
+        padding: 0 2em;
+}
+    
+    .proj_assets_multiple {
+    grid-column: 2 / 3;
+}
+
+.proj_assets_multiple img {
+}
+
 
 #saficons {
     height:100%;;

@@ -325,13 +325,29 @@ main h1 {
 .line {
     background: #333;
     width: 5px;
-    height: 0;
     position: absolute;
     left: calc(35% - 2px);
-    transition: height 0.5s;
+    animation: grow 2s infinite forwards ease;
+    animation-delay:2s;
+
 }
 .line.active {
     height: 90%;
+}
+
+@keyframes grow {
+    0% {
+        opacity:0;
+        height:0vh;
+    }
+    50% {
+        height:75vh;
+    }
+    
+    100% {
+        opacity:100%;
+        height:75vh;
+    }
 }
 
 #here {
@@ -810,7 +826,7 @@ footer {
 
 
 @media all and (min-width: 768px) {
-    #main_press {
+    #main_pres {
         padding:0 2em;
     }
     
@@ -895,7 +911,7 @@ header nav {
 main {
 display:grid;
 grid-template-columns: 0.5fr minmax(200px, 800px) 0.8fr;
-height:90vh;
+height:100vh;
 font-size:  2.8rem;
 padding:0;
 }

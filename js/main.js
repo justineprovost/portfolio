@@ -30,6 +30,7 @@ $(function() {
     transitions: [{
         async once (data) {
         contentAnimation();
+            pageChange();
       },
         
         async leave (data) {

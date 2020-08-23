@@ -30,8 +30,11 @@ $(function() {
     transitions: [{
         async once (data) {
         contentAnimation();
-            pageChange();
       },
+        
+        async after (data) {
+                pageChange();
+        },
         
         async leave (data) {
         const done = this.async();

@@ -811,7 +811,7 @@ height:auto;
 .about_page {
     display:flex;
     flex-flow:column;
-    height:100%;
+    height:100vh;
     background:#F28F6B;
 }
 

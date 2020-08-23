@@ -217,12 +217,11 @@ header:hover {
 	font-size:2em;
 	cursor:pointer;
 	position:absolute;
-	top:3.5vmax;
-	right:3.5vmax;
+	top:2rem;
+	right:2rem;
 	z-index: 1;
 	color:#333333;
 	font-weight:700;
-	transition: all 2s;
     padding:3vmax;
 }
 

@@ -492,10 +492,19 @@ color: grey;
     min-height:80vh;
     grid-column: 1 / 2;
     display:flex;
+    flex-flow: column;
     align-items: center;
     font-size:1rem;
     line-height:1.6;
     padding: 0 6vmax;
+}
+
+.proj_moreinfo p {
+
+}
+
+.proj_moreinfo h4 {
+    padding-bottom:2em;
 }
 
 .summary {
@@ -739,7 +748,7 @@ height:auto;
 }
 
 .proj_assets_multiple img {
-    width:200px;
+    width:400px;
     padding:1em;
 }
 
@@ -748,6 +757,10 @@ height:auto;
     display:grid;
     align-items:center;
     justify-content: center;
+}
+
+.proj_assets_big figure{
+    padding:2em 0;
 }
 
 .proj_assets_big img {
@@ -1141,7 +1154,11 @@ aside li {
     display:flex;
     align-items:center;
     justify-content: center;
-}    
+} 
+    
+    #care {
+        background:#FAF5F8;
+    }
     
 .proj_assets_caption figcaption{
     padding-bottom:2em;
@@ -1160,7 +1177,7 @@ aside li {
     grid-column: 2 / 3;
     display:flex;
     align-items:center;
-    justify-content: left;
+    justify-content: center;
     font-size:1.2em;
     line-height: 1.7em;
     padding:0;

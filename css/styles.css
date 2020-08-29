@@ -881,7 +881,7 @@ footer {
     grid-column: 1 / 4;
     height:20vh;
     border-top: #333 3px solid;
-    padding-left:3vmax;
+    padding-left:0;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -1313,7 +1313,7 @@ padding:0;
 }
 
 .section-c {
-    min-height:120vh;
+    min-height:140vh;
      grid-column: 2 / 3;
     text-align:left;
     display: flex;
@@ -1335,7 +1335,16 @@ padding-bottom:1.4rem;
   padding: 10vh 0;
 }
 
-
+footer {
+    grid-column: 1 / 4;
+    height:20vh;
+    border-top: #333 3px solid;
+    padding-left:3vmax;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-size:0.7rem;
+}
 
     
     }

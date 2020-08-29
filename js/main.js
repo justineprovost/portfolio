@@ -59,7 +59,7 @@ function contentAnimation() {
 	var contentTl = gsap.timeline({
 		scrollTrigger: {
 			trigger:".section-c",
-			markers:true,
+			markers:false,
 			start:"top 85%", 
 			end:"bottom 60%",
 			toggleActions:"play none none none"

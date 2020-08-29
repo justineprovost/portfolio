@@ -387,10 +387,6 @@ main h1 {
     flex-flow: column;
     }
 
-.containertest {
-    padding-bottom:2rem;
-}
-
 
 .content-list {
 padding-bottom:1.4rem;
@@ -887,6 +883,7 @@ footer {
     border-top: #333 3px solid;
     padding-left:0;
     display: flex;
+    margin-top:2rem;
     flex-flow: column;
     justify-content: center;
     font-size:0.7rem;

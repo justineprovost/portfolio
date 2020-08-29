@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>justine provost visual design</title>
     <link rel="stylesheet" type="text/css" href="css/all.css" >
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js" integrity="sha256-z0T3r+4uTjAkB5CHxybF9RQwAzHEdFB5+hJe/pGAcPg=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
     <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css"> 
     <link rel="preload" as="font" href="portfolio/fonts/objectsans-regular-webfont.woff" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="portfolio/fonts/objectsans-regular-webfont.woff2" type="font/woff2" crossorigin="anonymous">
@@ -15,12 +16,8 @@
     <link rel="preload" as="font" href="portfolio/fonts/agrandir-regular-webfont.woff2" type="font/woff2" crossorigin="anonymous">
         <link rel="preload" as="font" href="portfolio/fonts/Agrandir-Bold.woff" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="portfolio/fonts/Agrandir-Bold.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="style" href='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css'>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-    <script rel="preload" as="script" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"></script>
-<script rel="preload" as="script" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-<script rel="preload" as="script" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
-<script rel="preload" as="script"  src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js" integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
+
 <link rel="shortcut icon" type="image/jpg" href="images/asteriks.svg"/>
 </head>
     
@@ -29,8 +26,8 @@
       <div class="loading-screen"></div>
     </div>
     <div data-barba="container" data-barba-namespace="home">
-   <header class="main-navigation">
-       <a class="logo"><img src="images/logolight.png"></a>
+   <header class="main-navigation second-appear" >
+       <a class="logo" ><img src="images/logolight.png"></a>
        <div class="main_menu" >
             <ul class="transition">
                <a href="failures.html"><li>Work</li></a>
@@ -40,8 +37,8 @@
            </ul>
        </div>
    </header>
-      <span id="trigger" onclick="openNav()" class="left"><i class="fas fa-ellipsis-h"></i></span>
-   <nav id="myNav" class="overlay" role="navigation" class="main-navigation" >
+      <span id="trigger" onclick="openNav()" ><i class="fas fa-ellipsis-h"></i></span>
+   <nav id="myNav" class="overlay" role="navigation" class="main-navigation second-appear">
          <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-asterisk"></i></span>
            <ul class="overlay-content">
                <a href="failures.html"><li>Work</li></a>
@@ -51,7 +48,7 @@
            </ul>
        </nav>
    
-   <aside class="left">
+   <aside class="second-appear">
        <ul>
            <li><a href="http://www.behance.net/justineprovost" target="_blank"><i class="fab fa-behance"></i></a></li>
            <li><a href="https://www.linkedin.com/in/justineprovost/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
@@ -60,53 +57,48 @@
    </aside>
    
   <div id="homepage">
-   <main class="left">
-       <h1>Hi! I'm Justine, a visual designer passionate about sustainability and creating thoughtful designs</h1>
+   <main  id="first-appear">
+       <h1 >Hi! I'm Justine, a visual designer passionate about sustainability and creating thoughtful designs</h1>
    </main>
     
-    <div class="left">
+<section class="section-c">
     <div class="boxes">
     <div class="line"></div>
-</div></div>
-     
+</div>
+    
    
-   <div data-barba="container" data-barba-namespace="work" id="main_pres" class="left">
-   <div id="pres"><h2 id="here">here are my latest projects:</h2></div>
-   <div class="projects" id="work" class="left">
-       
-       <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="failures.html">Failures Book</a></h2>
-       <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="carekit.html">Carekit</a></h2>
-       <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="wild_thoughts.html">Wild Thoughts</a></h2>
-      <h2 data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom"><a href="saf.html">Sustainability Action Fund</a></h2>
-      
-   </div>
-    </div>
+        
+            <div class="containertest">
+                <div class="about-content">
+                    
+                        <h2 class="title">here are my latest projects:</h2>
+            
+                </div>
+                   
+                   <div class="content-list">
+                    <a href="failures.html"><h2>Failures book</h2></a>
+                    </div>
+                    
+                    <div class="content-list">
+                    <a href="carekit.html"><h2>Carekit</h2></a>
+                    </div>
+
+                    <div class="content-list">
+                    <a href="wild_thoughts.html"><h2>Wild Thoughts</h2></a>
+                    </div>
+
+                    <div class="content-list">
+                    <a href="saf.html"><h2>Sustainability Action Fund</h2></a>
+
+                </div>
+            </div>
+        </section>      
    
    <footer><h5><i class="far fa-paper-plane"></i> → justine.provost@hotmail.ca</h5>
    <h5>this website is proudly set in fonts by <a href="https://pangrampangram.com/" target="_blank">Pangram Pangram Foundry</a></h5>
    </footer>
    </div>
 </div>
-<script>     
-
-const cursor = document.querySelector('.cursor');
-
-document.addEventListener('mousemove', e => {
-cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
-})
-
-document.addEventListener('click', () => {
-cursor.classList.add("expand");
-
-setTimeout(() => {
-cursor.classList.remove("expand");
-
-}, 500)
-})
-</script>   
-  
-   
-   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
     
 	<script>
         function openNav() {
@@ -118,19 +110,11 @@ cursor.classList.remove("expand");
         }
     </script>
     
-<!--
-    <script>
-	var controller = new ScrollMagic.Controller();
-new ScrollMagic.Scene({triggerElement: ".box-1"}).setClassToggle(".box-1 .line", "active").addTo(controller);
-
-</script>
--->
-    
       <!-- Barba Core -->
-  <script src="https://unpkg.com/@barba/core"></script>
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>	
 
-  <!-- GSAP for animation -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
   
     <!-- Some basic helper functions -->
   <script src="js/helper.js"></script>
@@ -138,10 +122,6 @@ new ScrollMagic.Scene({triggerElement: ".box-1"}).setClassToggle(".box-1 .line",
   <!-- Main JS file -->
   <script src="js/main.js"></script>
   
-   
-    <script src='https://unpkg.com/splitting@1.0.6/dist/splitting.min.js'></script>
-    <script  src="js/script.js"></script>  
-	<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
 	<script  src="js/index.js"></script>
 </body>
 </html>

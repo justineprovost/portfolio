@@ -302,17 +302,19 @@ header:hover {
 
 #homepage {
     background:#AFD9AD;
+    display: grid;
+    grid-template-columns: 1fr minmax(200px, 900px) 0.8fr;
+    padding:0 2rem;
+
 }
 
 main {
-    display:grid;
-    grid-template-columns: 1fr;
-    padding:0 2em;
-    height:90vh;
+    grid-column: 2 / 3;
+    height:80vh;
+    display:flex;
 }
 
 main h1 {
-    grid-column: 2 / 3;
     font-size:  3rem;
     display:flex;
     line-height: 1.2;
@@ -336,9 +338,9 @@ main h1 {
 
 .boxes {
     grid-column: 2 / 3;
-    min-height: 80vh;
-    position: relative;
+    min-height: 50vh;
     margin: 0;
+    padding-left:20vw;
 }
 .boxes:after {
     content: url("../images/asteriks.svg");
@@ -350,7 +352,7 @@ main h1 {
     bottom: 0px;
     z-index: 1;
     animation: spin 1s infinite ;
-    margin-bottom: 2em;
+    margin-bottom: -2em;
 }
 
 
@@ -370,27 +372,35 @@ main h1 {
     width: 5px;
     position: absolute;
     left: calc(35% - 2px);
-    animation: growmobile 1.5s infinite alternate cubic-bezier(0.65, 0, 0.35, 1);
+    height:100%;
     padding-top:0em;
 
 }
 
+.section-c {
+    min-height:130vh;
+     grid-column: 2 / 3;
+    text-align:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    }
 
-@keyframes growmobile {
-    0% {
-        height:0vh;
-    }
-    50% {
-        height:67vh;
-    }
-    
-    100% {
-        height:67vh;
-    }
+
+.content-list {
+padding-bottom:1.4rem;
 }
 
-#here {
+
+.about-content .title {
+    font-family: 'agrandirregular';
+  font-size: 2.3rem;
+    line-height: 1.4;
+  padding: 10vh 0;
 }
+
+
 
 #pres {
     grid-column: 1/2;
@@ -421,8 +431,7 @@ main h1 {
     justify-content: center;
     align-items: flex-start;
     flex-flow: column;
-    line-height: 2;
-    
+    line-height: 2;  
 }
 
 .projects h2 {
@@ -869,6 +878,7 @@ height:auto;
 /***FOOTER***/
 
 footer {
+    grid-column: 1 / 4;
     height:20vh;
     border-top: #333 3px solid;
     padding-left:3vmax;
@@ -967,23 +977,18 @@ header nav {
     
 main {
 display:grid;
-grid-template-columns: 0.5fr minmax(200px, 800px) 0.8fr;
 height:90vh;
 font-size:  2.8rem;
 padding-bottom:1em;
 }
     
-#main_pres {
-    min-height:100vh;
-    display:grid;
-    grid-template-columns: 0.5fr minmax(200px, 800px) 0.5fr;
-    grid-template-rows: 0.2fr 0.6fr;
-    padding:0;
-}
+
     
+/*
 .line {
    animation: grow 1.5s infinite alternate cubic-bezier(0.65, 0, 0.35, 1);
 }
+*/
     
     @keyframes grow {
     0% {
@@ -1257,8 +1262,7 @@ height:60vh;
     
 .boxes:after {
     left: calc(35% - 25px);
-    bottom: -20px;
-    margin-bottom:0;
+    bottom: 0;
 }
 
 .nextproject {
@@ -1299,6 +1303,37 @@ grid-column: 2/3;
 #about_me p{
     font-size:1rem;
     }
+    
+    
+#homepage {
+    background:#AFD9AD;
+    display: grid;
+    grid-template-columns: 1fr minmax(200px, 900px) 0.8fr;
+padding:0;
+}
+
+.section-c {
+    min-height:120vh;
+     grid-column: 2 / 3;
+    text-align:left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+    }
+
+
+.content-list {
+padding-bottom:1.4rem;
+}
+
+
+.about-content .title {
+    font-family: 'agrandirregular';
+  font-size: 2.3rem;
+    line-height: 1.4;
+  padding: 10vh 0;
+}
 
 
 

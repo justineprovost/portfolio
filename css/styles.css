@@ -81,6 +81,7 @@ h2 {
    font-family: 'agrandirbold';
     font-size:2.5rem;
     letter-spacing: 0.02em;
+    line-height:1.4;
     
 }
 
@@ -286,7 +287,16 @@ header:hover {
 }
 
 
+#hoverme {
+    position:relative;
+}
 
+#hoverme img { 
+}
+
+#hoverme:hover {
+    background: url(../images/asteriks.svg) center no-repeat;
+}
 
 /***MAIN***/
 

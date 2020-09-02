@@ -904,13 +904,11 @@ footer {
     grid-column: 1 / 4;
     height:20vh;
     border-top: #333 3px solid;
-    padding-left:2vmax;
+    padding-left:0;
     display: flex;
-    margin-top:2rem;
     flex-flow: column;
     justify-content: center;
-    font-size:0.7rem;
-    font-size:1em;
+    font-size:0.8em;
 }
 
 /*************************************TABLET*****************************************/
@@ -1326,7 +1324,6 @@ height:60vh;
     
 #about {
     min-height:100vh;
-    width:100vw;
     display:grid;
     grid-template-columns: 1fr minmax(200px,800px) 1fr;
     grid-template-rows: 1fr;
@@ -1382,7 +1379,7 @@ footer {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    font-size:0.7rem;
+    font-size:0.8rem;
 }
     
     .containertest {

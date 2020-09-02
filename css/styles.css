@@ -1250,6 +1250,11 @@ aside li {
     padding:0;
     
 }
+    
+    .proj_moreinfo_50 {
+    grid-column: 2 / 3;
+
+}
 
 .proj_imggrid {
     height:100vh;

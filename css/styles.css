@@ -495,7 +495,7 @@ color: grey;
 .proj_desc {
     display:grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 0.3fr 1fr 0.5fr 0.5fr;
     grid-gap:1em;
 }
 
@@ -904,12 +904,13 @@ footer {
     grid-column: 1 / 4;
     height:20vh;
     border-top: #333 3px solid;
-    padding-left:0;
+    padding-left:2vmax;
     display: flex;
     margin-top:2rem;
     flex-flow: column;
     justify-content: center;
     font-size:0.7rem;
+    font-size:1em;
 }
 
 /*************************************TABLET*****************************************/

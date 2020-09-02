@@ -881,19 +881,13 @@ height:auto;
 
 /****ABOUT***/
 
-.about_page {
-    display:flex;
-    flex-flow:column;
-    height:100vh;
-    background:#F28F6B;
-}
-
 #about {
     height:100%;
     display:grid;
     grid-template-columns: 1fr minmax(200px,900px) 1fr;
     grid-template-rows: 1fr;
     padding:4vmax;
+    background:#F28F6B;
 }
 
 #about_me{
@@ -904,6 +898,7 @@ height:auto;
     grid-gap:2em;
     justify-content: center;
     align-items: center;
+    padding-bottom:2rem;
 }
 
 
@@ -913,7 +908,9 @@ height:auto;
     padding-top:1.4em;
 }
 
-
+#aboutfoot {
+    background:#F28F6B;
+}
 
 /***FOOTER***/
 
@@ -921,11 +918,11 @@ footer {
     grid-column: 1 / 4;
     height:20vh;
     border-top: #333 3px solid;
-    padding-left:0;
     display: flex;
     flex-flow: column;
     justify-content: center;
     font-size:0.8em;
+    padding:2em;
 }
 
 /*************************************TABLET*****************************************/

@@ -493,7 +493,7 @@ color: grey;
 .proj_desc {
     display:grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 0.5fr 2em 1fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
     grid-gap:1em;
 }
 
@@ -770,6 +770,27 @@ height:auto;
 .proj_assets_multiple img {
     width:400px;
     padding:1em;
+}
+
+.proj_assets_multiple_alt {
+    grid-column: 1 / 2;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.proj_assets_multiple_alt img {
+    width:100%;
+    padding:1em;
+    
+}
+
+.openleaf {
+    background: url('../images/wild_thoughts/leaf.gif') center no-repeat;
+    background-size: 85%;
 }
 
 .proj_assets_big {
@@ -1188,6 +1209,20 @@ aside li {
 .proj_assets_50 {
     height:50vh;
     }
+    
+.proj_assets_multiple_alt {
+    grid-column: 2 / 3;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj_assets_multiple_alt img {
+    width:100%;
+    padding:1em;
+    
+}
 
 .proj_moreinfo {
     height:60vh;
@@ -1314,7 +1349,7 @@ padding:0;
 }
 
 .section-c {
-    min-height:140vh;
+    min-height:120vh;
      grid-column: 2 / 3;
     text-align:left;
     display: flex;

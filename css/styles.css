@@ -542,8 +542,10 @@ color: grey;
     justify-content: center;
     font-size:1rem;
     line-height:1.6;
-    padding: 0 6vmax;
+    margin: 0 10vw;
     background: #AFD9AD;
+    border:1px solid #AFD9AD;
+    border-radius: 1vmax;
 }
 
 .proj_moreinfo_50 h5 {

@@ -543,6 +543,7 @@ color: grey;
     font-size:1rem;
     line-height:1.6;
     padding: 0 6vmax;
+    background: #AFD9AD;
 }
 
 .proj_moreinfo_50 h5 {
@@ -927,6 +928,10 @@ footer {
     justify-content: center;
     font-size:0.8em;
     padding:2em;
+}
+
+#homefoot {
+    background: #AFD9AD;
 }
 
 /*************************************TABLET*****************************************/

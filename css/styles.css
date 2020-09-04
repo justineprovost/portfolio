@@ -384,7 +384,7 @@ main h1 {
 }
 
 .section-c {
-    min-height:130vh;
+    min-height:150vh;
      grid-column: 2 / 3;
     text-align:left;
     display: flex;

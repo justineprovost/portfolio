@@ -398,9 +398,13 @@ main h1 {
 padding-bottom:1.4rem;
 }
 
-    .content-list h5 {
-        color:#333;
-    }
+.content-list h5 {
+    color:#333;
+}
+
+.content-list h2 {
+    line-height:1.2;
+}
 
 
 .about-content .title {

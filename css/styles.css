@@ -857,13 +857,15 @@ height:auto;
     
 }
 
-.nextproject {
-    grid-column: 1 / 4;
-    height:40vh;
+.page_nav {
+    grid-column:1 / 2;
     display:flex;
+    flex-flow: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
+    height:40vh;
 }
+
 
 .nextproject a {
     display: flex;
@@ -876,21 +878,53 @@ height:auto;
 }
 
 .nextproject h2{
-    font-size:3em;
     font-family: 'agrandirbold';
     text-transform: lowercase;
     transition:all 0.5s ease;
+    font-size:2em;
 }
 
 .nextproject .arrow{
     font-family: 'agrandirbold';
     align-self: center;
-    font-size:3em;
+    font-size:2em;
 }
 
 .nextproject h2:hover {
-    margin-right:0.4em;
+    margin-right:0.2em;
 }
+
+.previousproject a {
+    display: flex;
+    flex-flow: wrap;
+    transition:all 0.5s ease;
+    padding-bottom:4em;
+}
+
+.previousproject a:hover {
+    transform: translateX(-1%);
+}
+
+.previousproject h2{
+    font-family: 'agrandirbold';
+    text-transform: lowercase;
+    transition:all 0.5s ease;
+    font-size:2em;
+}
+
+.previousproject .leftarrow{
+    font-family: 'agrandirbold';
+    align-self: center;
+    font-size:2em;
+
+}
+
+.previousproject h2:hover {
+    margin-left:0.2em;
+}
+
+
+
 
 #bistrologo {
     background:#261A10;
@@ -1047,6 +1081,72 @@ padding-bottom:1em;
    animation: grow 1.5s infinite alternate cubic-bezier(0.65, 0, 0.35, 1);
 }
 */
+.page_nav {
+    grid-column:2 / 3;
+    display:flex;
+    flex-flow:row;
+    justify-content: space-between;
+    align-items: center;
+    height:40vh;
+}
+
+
+.nextproject a {
+    display: flex;
+    flex-flow: wrap;
+    transition:all 0.5s ease;
+}
+
+.nextproject a:hover {
+    transform: translateX(1%);
+}
+
+.nextproject h2{
+    font-family: 'agrandirbold';
+    text-transform: lowercase;
+    transition:all 0.5s ease;
+    font-size:2.5em;
+}
+
+.nextproject .arrow{
+    font-family: 'agrandirbold';
+    align-self: center;
+    font-size:2.5em;
+    margin-left:0.2em;
+}
+
+.nextproject h2:hover {
+    margin-right:0.4em;
+}
+
+.previousproject a {
+    display: flex;
+    flex-flow: wrap;
+    transition:all 0.5s ease;
+    padding-bottom:0;
+}
+
+.previousproject a:hover {
+    transform: translateX(-1%);
+}
+
+.previousproject h2{
+    font-family: 'agrandirbold';
+    text-transform: lowercase;
+    transition:all 0.5s ease;
+    font-size:2.5em;
+}
+
+.previousproject .leftarrow{
+    font-family: 'agrandirbold';
+    align-self: center;
+    font-size:2.5em;
+    margin-right:0.2em;
+}
+
+.previousproject h2:hover {
+    margin-left:0.4em;
+}
     
     @keyframes grow {
     0% {
@@ -1356,26 +1456,7 @@ height:60vh;
     left: calc(35% - 25px);
     bottom: 0;
 }
-
-.nextproject {
-    grid-column: 1 / 4;
-    height:40vh;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-}
-
-.nextproject h2{
-    font-size:3em;
-}
     
-.nextproject h2:hover {
-    margin-right:0.8em;
-}
-    
-.nextproject a:hover {
-    transform: translateX(16%);
-}
     
 #about {
     min-height:100vh;

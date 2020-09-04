@@ -816,7 +816,7 @@ height:auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     align-self: center;
-    background: #453625;
+    background: #65563D;
 }
 
 .proj_assets_multiple_eyes img {
@@ -1271,8 +1271,8 @@ aside li {
     
 .proj_assets_multiple_eyes {
     grid-column: 1 / 4;
-    background:#453625;
-    padding:4em 0;
+    background:#65563D;
+    padding:4em;
 }
 
 .proj_moreinfo {

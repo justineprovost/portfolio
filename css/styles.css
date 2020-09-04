@@ -309,7 +309,7 @@ header:hover {
 #homepage {
     background:#AFD9AD;
     display: grid;
-    grid-template-columns: 1fr minmax(200px, 900px) 0.8fr;
+    grid-template-columns: 1fr minmax(200px, 900px) 1fr;
     padding:0 2rem;
 
 }
@@ -397,6 +397,10 @@ main h1 {
 .content-list {
 padding-bottom:1.4rem;
 }
+
+    .content-list h5 {
+        color:#333;
+    }
 
 
 .about-content .title {
@@ -1482,12 +1486,12 @@ grid-column: 2/3;
 #homepage {
     background:#AFD9AD;
     display: grid;
-    grid-template-columns: 1fr minmax(200px, 900px) 0.8fr;
+    grid-template-columns: 1fr minmax(200px, 900px) 1fr;
 padding:0;
 }
 
 .section-c {
-    min-height:120vh;
+    min-height:150vh;
      grid-column: 2 / 3;
     text-align:left;
     display: flex;
@@ -1498,7 +1502,7 @@ padding:0;
 
 
 .content-list {
-padding-bottom:1.4rem;
+padding-bottom:2rem;
 }
 
 

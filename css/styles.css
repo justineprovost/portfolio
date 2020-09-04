@@ -389,7 +389,7 @@ main h1 {
     text-align:left;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: column;
     }
 

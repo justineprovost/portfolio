@@ -811,6 +811,21 @@ height:auto;
     
 }
 
+
+.proj_assets_multiple_eyes {
+    grid-column: 1 / 2;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #453625;
+}
+
+.proj_assets_multiple_eyes img {
+    width:30vw;
+    padding:1em;
+}
+
 .openleaf {
     background: url('../images/wild_thoughts/leaf.gif') center no-repeat;
     background-size: 85%;
@@ -1254,6 +1269,21 @@ aside li {
     width:100%;
     padding:1em;
     
+}
+    
+.proj_assets_multiple_eyes {
+    grid-column: 1 / 4;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background:#453625;
+    padding:4em 0;
+}
+
+.proj_assets_multiple_eyes img {
+    width:400px;
+    padding:0.5em;
 }
 
 .proj_moreinfo {

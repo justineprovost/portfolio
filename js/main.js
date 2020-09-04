@@ -40,14 +40,14 @@ function bannerAnimation() {
 			y: 25,
 			opacity: 0,
 			duration: 0.5,
-			ease: "power3.inOut"
+			ease: "power1.easeIn"
 		})
         .from(".second-appear", {
 			delay: 0.5,
 			y: 25,
 			opacity: 0,
 			duration: 0.5,
-			ease: "power3.inOut"
+			ease: "power1.easeIn"
 		})
 
 }
@@ -66,11 +66,11 @@ function contentAnimation() {
 		},
 	});
 
-	contentTl.addLabel("start").fromTo(".about-content .title", { y: 16,opacity: 0, }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.inOut" })
-    .fromTo(".boxes", { y:50, opacity: 0, }, { opacity: 1, y: 0, duration: 1, ease: "power3.Out",stagger: { amount: 0.2 } })
+	contentTl.addLabel("start").fromTo(".about-content .title", { y: 16,opacity: 0, }, { opacity: 1, y: 0, duration: 0.5, ease: "power1.easeIn" })
+    .fromTo(".boxes", { y:50, opacity: 0, }, { opacity: 1, y: 0, duration: 1, ease: "power1.EaseIn",stagger: { amount: 0.8 } })
 	.addLabel("end")
-	.fromTo(".about-content h4", { y: 40, opacity: 0, }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.inOut" })
-	.fromTo(".content-list", { y: 40, opacity: 0, }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.inOut",stagger: { amount: 0.2 } })
+	.fromTo(".content-list", { y: 40, opacity: 0, }, { opacity: 1, y: 0, duration: 0.3, ease: "power1.easeIn",stagger: { amount: 0.3 } })
+    .fromTo(".text-appear", { y: 40, opacity: 0, }, { opacity: 1, y: 0, duration: 0.3, ease: "power1.easeIn",stagger: { amount: 0.8 } })
 	.addLabel("end")
     ;
 }

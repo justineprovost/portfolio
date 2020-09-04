@@ -812,15 +812,15 @@ height:auto;
 
 .proj_assets_multiple_eyes {
     grid-column: 1 / 2;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-self: center;
     background: #453625;
 }
 
 .proj_assets_multiple_eyes img {
-    width:30vw;
+    width:100%;
     padding:1em;
 }
 
@@ -1271,17 +1271,8 @@ aside li {
     
 .proj_assets_multiple_eyes {
     grid-column: 1 / 4;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     background:#453625;
     padding:4em 0;
-}
-
-.proj_assets_multiple_eyes img {
-    width:400px;
-    padding:0.5em;
 }
 
 .proj_moreinfo {

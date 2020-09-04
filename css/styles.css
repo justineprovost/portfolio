@@ -1221,6 +1221,15 @@ aside li {
         background:#FAF5F8;
     }
     
+    #care figure {
+        display:flex;
+        justify-content: center;
+    }
+    
+    #care img {
+        width:60%;
+    }
+    
 .proj_assets_caption figcaption{
     padding-bottom:2em;
 }

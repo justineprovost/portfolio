@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>justine provost design visuel</title>
+    <link rel="stylesheet" type="text/css" href="css/all.css" >
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js" integrity="sha256-z0T3r+4uTjAkB5CHxybF9RQwAzHEdFB5+hJe/pGAcPg=" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css"> 
+    <link rel="preload" as="font" href="portfolio/fonts/objectsans-regular-webfont.woff" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="portfolio/fonts/objectsans-regular-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="portfolio/fonts/agrandir-regular-webfont.woff" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="portfolio/fonts/agrandir-regular-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+        <link rel="preload" as="font" href="portfolio/fonts/Agrandir-Bold.woff" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="portfolio/fonts/Agrandir-Bold.woff2" type="font/woff2" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+<link rel="shortcut icon" type="image/jpg" href="images/asteriks.svg"/>
+</head>
+    
+<body data-barba = "wrapper">
+         <div class="loading-container">
+      <div class="loading-screen"></div>
+    </div>
+    <div data-barba="container" data-barba-namespace="home">
+   <header class="main-navigation second-appear" >
+       <a class="logo" ><img src="images/logolight.png"></a>
+       <div class="main_menu" >
+            <ul class="transition">
+               <a href="failures.html"><li>Projets</li></a>
+               <a href="about.html"><li>À propos</li></a>
+               <a ><li>|</li></a>
+               <a href="index.html" ><li>EN</li></a>
+           </ul>
+       </div>
+   </header>
+      <span id="trigger" onclick="openNav()"  class="second-appear"><i class="fas fa-ellipsis-h"></i></span>
+   <nav id="myNav" class="overlay" role="navigation" class="main-navigation second-appear">
+         <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-asterisk"></i></span>
+           <ul class="overlay-content">
+               <a href="failures.html"><li>Projets</li></a>
+               <a href="about.html"><li>À propos</li></a>
+               <a ><li>|</li></a>
+               <a href="index.html"><li>EN</li></a>
+           </ul>
+       </nav>
+   
+   <aside class="second-appear">
+       <ul>
+           <li><a href="http://www.behance.net/justineprovost" target="_blank"><i class="fab fa-behance"></i></a></li>
+           <li><a href="https://www.linkedin.com/in/justineprovost/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+           <li><a href="https://dribbble.com/ju_pro" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+       </ul>
+   </aside>
+   
+  <div id="homepage">
+   <main  id="first-appear">
+       <h1 >Salut! Mon nom est Justine, je suis designer visuelle.</h1>
+   </main>
+    
+<section class="section-c">
+    <div class="boxes">
+    <div class="line"></div>
+</div>
+    
+   
+        
+            <div class="containertest">
+                <div class="about-content">
+                    
+                        <h2 class="title">voici mes plus récents projets:</h2>
+            
+                </div>
+                   
+                   <div class="content-list">
+                    <a href="failures_fr.html"><h2>Failures</h2><h5>Conception de livre</h5></a>
+                    </div>
+                    
+                    <div class="content-list">
+                    <a href="carekit.html"><h2>Carekit</h2><h5>Interface-utilisateur, expérience de l'utilisateur</h5></a>
+                    </div>
+
+                    <div class="content-list">
+                    <a href="wild_thoughts.html"><h2>Wild Thoughts</h2><h5>Design web, animation</h5></a>
+                    </div>
+
+                    <div class="content-list">
+                    <a href="saf.html"><h2>Sustainability Action Fund</h2><h5>Branding, design web</h5></a>
+
+                </div>
+            </div>
+        </section>      
+   
+   
+   </div>
+   <footer id="homefoot"><h5><i class="far fa-paper-plane"></i> → justine.provost@hotmail.ca</h5>
+   <h5>cet site web utilise des polices de <a href="https://pangrampangram.com/" target="_blank">Pangram Pangram Foundry</a></h5>
+   </footer>
+</div>
+    
+	<script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    
+      <!-- Barba Core -->
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>	
+
+  
+    <!-- Some basic helper functions -->
+  <script src="js/helper.js"></script>
+
+  <!-- Main JS file -->
+  <script src="js/main.js"></script>
+  
+	<script  src="js/index.js"></script>
+</body>
+</html>

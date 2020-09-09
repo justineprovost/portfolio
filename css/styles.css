@@ -796,6 +796,7 @@ height:auto;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    background:#EBCAB2;
 }
 
 
@@ -1351,7 +1352,7 @@ aside li {
     }
     
 .proj_assets_multiple_alt {
-    grid-column: 2 / 3;
+    grid-column: 1 / 4;
     display:flex;
     flex-flow: row;
     justify-content: center;
@@ -1360,7 +1361,7 @@ aside li {
 
 .proj_assets_multiple_alt img {
     width:100%;
-    padding:1em;
+    padding:4vmax;
     
 }
     

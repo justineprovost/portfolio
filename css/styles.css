@@ -824,7 +824,7 @@ height:auto;
 
 .openleaf {
     background: url('../images/wild_thoughts/leaf.gif') center no-repeat;
-    background-size: 85%;
+    background-size: 75%;
 }
 
 .proj_assets_big {
@@ -1361,7 +1361,7 @@ aside li {
 
 .proj_assets_multiple_alt img {
     width:100%;
-    padding:4vmax;
+    padding:5vw;
     
 }
     
